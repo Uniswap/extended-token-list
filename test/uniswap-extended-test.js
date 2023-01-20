@@ -32,7 +32,7 @@ describe('buildList', () => {
 
   it('contains no duplicate symbols', () => {
     // manual override to approve certain tokens with duplicate symbols
-    const approvedDuplicateSymbols = ["ust", 'alpha', 'boba', 'cvc', 'flx'];
+    const approvedDuplicateSymbols = ["ust", 'alpha', 'boba', 'cvc', 'flx', 'imx', 'tru'];
 
     const map = {};
     for (let token of defaultTokenList.tokens) {
