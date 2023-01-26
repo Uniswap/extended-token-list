@@ -10,7 +10,7 @@ const validator = ajv.compile(schema);
 let defaultTokenList;
 
 before(async function () {
-  this.timeout(300000);
+  this.timeout(150000);
   defaultTokenList = await buildList();
 });
 
