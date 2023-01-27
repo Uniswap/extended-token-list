@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "decimals": 18,
+    "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+    "chainId": "10",
+    "logoURI": "test",
+    "name": "test",
+    "symbol": "test"
+  }
+]
