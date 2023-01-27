@@ -1,0 +1,40 @@
+{
+  "name": "@uniswap/extended-token-list",
+  "version": "2.0.0",
+  "description": "◦ The Uniswap extended token list",
+  "main": "build/uniswap-extended.tokenlist.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/uniswap-extended.tokenlist.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/uniswap-extended.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uniswap/extended-token-list.git"
+  },
+  "keywords": [
+    "uniswap",
+    "extended",
+    "token",
+    "list"
+  ],
+  "author": "Matteen Mobasheran",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Uniswap/extended-token-list/issues"
+  },
+  "homepage": "https://github.com/Uniswap/extended-token-list#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-list-bridge-utils": "^1.0.8",
+    "@uniswap/token-lists": "^1.0.0-beta.29",
+    "@uniswap/default-token-list": "*6.0.0",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
