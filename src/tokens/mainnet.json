@@ -689,14 +689,6 @@
   },
   {
     "chainId": 1,
-    "address": "0x9fa69536d1cda4A04cFB50688294de75B505a9aE",
-    "name": "DeRace",
-    "symbol": "DERC",
-    "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/17438/thumb/derace-logo-black-coingecko.png?1627656907"
-  },
-  {
-    "chainId": 1,
     "address": "0x5cAf454Ba92e6F2c929DF14667Ee360eD9fD5b26",
     "name": "Dev Protocol",
     "symbol": "DEV",
@@ -2338,7 +2330,7 @@
   {
     "chainId": 1,
     "address": "0xCAEaf8381D4B20b43AFA42061D6f80319A8881F6",
-    "name": "R34P",
+    "name": "R34P token",
     "symbol": "R34P",
     "decimals": 8,
     "logoURI": "https://assets.coingecko.com/coins/images/13393/thumb/r34p_logo.png?1608100330"
@@ -3454,5 +3446,12 @@
     "symbol": "ZKS",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13585/thumb/zkspace_logo.png?1644486208"
+  },
+  {
+    "address": "0x123",
+    "chainId": "1",
+    "logoURI": "test",
+    "name": "test",
+    "symbol": "test"
   }
 ]
