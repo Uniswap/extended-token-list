@@ -3454,5 +3454,12 @@
     "symbol": "ZKS",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13585/thumb/zkspace_logo.png?1644486208"
+  },
+  {
+    "address": "0x123",
+    "chainId": "1",
+    "logoURI": "test",
+    "name": "test",
+    "symbol": "test"
   }
 ]
