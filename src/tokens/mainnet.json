@@ -1285,7 +1285,20 @@
     "name": "Hop Protocol",
     "symbol": "HOP",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/25445/thumb/BVcNR51u_400x400.jpg?1651797443"
+    "logoURI": "https://assets.coingecko.com/coins/images/25445/thumb/BVcNR51u_400x400.jpg?1651797443",
+    "extensions": {
+      "bridgeInfo": {
+        "10": {
+          "tokenAddress": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC"
+        },
+        "137": {
+          "tokenAddress": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC"
+        },
+        "42161": {
+          "tokenAddress": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC"
+        }
+      }
+    }
   },
   {
     "chainId": 1,
