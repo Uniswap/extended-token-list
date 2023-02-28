@@ -1001,6 +1001,14 @@
   },
   {
     "chainId": 1,
+    "address": "0xfcf8eda095e37a41e002e266daad7efc1579bc0a",
+    "name": "Flex Coin",
+    "symbol": "FLEX",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/9108/large/coinflex_logo.png"
+  },
+  {
+    "chainId": 1,
     "address": "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E",
     "name": "Floki Inu",
     "symbol": "FLOKI",
