@@ -29,8 +29,8 @@
   "homepage": "https://github.com/Uniswap/extended-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
-    "@uniswap/default-token-list": "*9.0.0",
-    "@uniswap/token-list-bridge-utils": "^1.2.0",
+    "@uniswap/default-token-list": "*9.0.1",
+    "@uniswap/token-list-bridge-utils": "^1.3.2",
     "@uniswap/token-lists": "^1.0.0-beta.29",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
