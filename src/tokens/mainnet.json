@@ -18,10 +18,10 @@
   {
     "chainId": 1,
     "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
-    "name": "Ankr Reward Bearing Staked ETH",
-    "symbol": "aETHc",
+    "name": "Ankr Staked ETH",
+    "symbol": "ankrETH",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/13403/thumb/aETHc.png?1625756490"
+    "logoURI": "https://assets.coingecko.com/coins/images/13403/large/aETHc.png?1625756490"
   },
   {
     "chainId": 1,
@@ -3467,5 +3467,13 @@
     "symbol": "ZKS",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/13585/thumb/zkspace_logo.png?1644486208"
+  },
+  {
+    "chainId": 1,
+    "name": "Arbitrum",
+    "address": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+    "symbol": "ARB",
+    "decimals": 18,
+    "logoURI": "https://arbitrum.foundation/logo.png"
   }
 ]
