@@ -1694,11 +1694,11 @@
   },
   {
     "chainId": 1,
-    "address": "0xB4d930279552397bbA2ee473229f89Ec245bc365",
+    "address": "0x745407c86DF8DB893011912d3aB28e68B62E49B0",
     "name": "MahaDAO",
     "symbol": "MAHA",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/13404/thumb/MAHA_Token.png?1625651604"
+    "logoURI": "https://assets.coingecko.com/coins/images/13404/large/MAHA_Token.png?1625651604"
   },
   {
     "chainId": 1,
