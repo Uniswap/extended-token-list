@@ -3476,4 +3476,13 @@
     "decimals": 18,
     "logoURI": "https://arbitrum.foundation/logo.png"
   }
+  ,
+  {
+    "chainId": 1,
+    "name": "EUROe Stablecoin",
+    "address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974",
+    "symbol": "EUROe",
+    "decimals": 6,
+    "logoURI": "https://dev.euroe.com/img/euroe-token-symbol/euroe-32x32-round.png"
+  }
 ]
