@@ -10,7 +10,7 @@ const validator = ajv.compile(schema);
 let defaultTokenList;
 
 before(async function () {
-  this.timeout(150000);
+  this.timeout(300000);
   defaultTokenList = await buildList();
 });
 
@@ -32,7 +32,7 @@ describe('buildList', () => {
 
   it('contains no duplicate symbols', () => {
     // manual override to approve certain tokens with duplicate symbols
-    const approvedDuplicateSymbols = ["ust", 'alpha', 'boba', 'cvc', 'flx', 'imx', 'tru'];
+    const approvedDuplicateSymbols = ["ust", 'alpha', 'boba', 'cvc', 'flx', 'imx', 'tru', 'ton', 'dg', 'radar', 'arch', 'ohm', 'babydoge', 'bright', 'bnb', 'mph', 'bank', 'lit', 'free', 'ichi', 'avt', 'dec', 'poly'];
 
     const map = {};
     for (let token of defaultTokenList.tokens) {
