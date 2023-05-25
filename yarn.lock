@@ -522,10 +522,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/promise-all-settled/-/promise-all-settled-1.1.2.tgz#aa58042711d6e3275dd37dc597e5d31e8c290a44"
   integrity sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==
 
-"@uniswap/default-token-list@*9.4.0":
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/default-token-list/-/default-token-list-9.4.0.tgz#60c4d249b3be5d0123480e5a4fd092a1fd10ef0c"
-  integrity sha512-PsYsEPpFs0CIjWHel2FDPo6T/EkZ+RuH9NfX55FbMbZMTuw9TSQEfl8p1fYt6KAMWi0Zy/Mfqp16y+OiYJyoBA==
+"@uniswap/default-token-list@*10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@uniswap/default-token-list/-/default-token-list-10.0.0.tgz#1dd47951dab33a46c07205e3070054396dca7bbd"
+  integrity sha512-xz9exeJe1sJl6qJxtGF73iqjnv1V/lWBzMhGpLtalPJXQIfoJwW1g8qs//FiGITsi8tmynoyC6hfd6Pnc1tBTA==
 
 "@uniswap/sdk-core@^3.0.1":
   version "3.0.1"
