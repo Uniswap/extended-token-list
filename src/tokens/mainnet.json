@@ -7027,5 +7027,21 @@
     "symbol": "PEPE",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1682922725"
+  },
+  {
+    "chainId": 1,
+    "address": "0x32b86b99441480a7E5BD3A26c124ec2373e3F015",
+    "name": "Bad Idea AI",
+    "symbol": "BAD",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/30871/standard/Bad_idea.jpeg?1696529718"
+  },
+  {
+    "chainId": 1,
+    "address": "0x57B49219614859176Ddb029298486B6c30193Cbd",
+    "name": "Oracle AI",
+    "symbol": "ORACLE",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35463/standard/Oracle_AI_200x200.png?1708677748"
   }
 ]
