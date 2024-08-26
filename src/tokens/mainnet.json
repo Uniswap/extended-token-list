@@ -177,11 +177,11 @@
   },
   {
     "chainId": 1,
-    "address": "0xDc63269eA166b70d4780b3A11F5C825C2b761B01",
-    "name": "PAWSWAP",
-    "symbol": "PAW",
+    "address": "0xC11158C5dA9db1D553Ed28F0C2Ba1Cbedd42CfCb",
+    "name": "Wrapped PAW",
+    "symbol": "wPAW",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/28946/large/pawnewlogobig.png?1682498998"
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/23404.png"
   },
   {
     "chainId": 1,
