@@ -178,7 +178,7 @@
   {
     "chainId": 1,
     "address": "0xC11158C5dA9db1D553Ed28F0C2Ba1Cbedd42CfCb",
-    "name": "PAW",
+    "name": "Wrapped PAW",
     "symbol": "wPAW",
     "decimals": 18,
     "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/23404.png"
