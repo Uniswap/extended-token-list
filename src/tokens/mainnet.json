@@ -7038,10 +7038,18 @@
   },
   {
     "chainId": 1,
-    "address": "0x57B49219614859176Ddb029298486B6c30193Cbd",
-    "name": "Oracle AI",
-    "symbol": "ORACLE",
+    "address": "0x91fbb2503ac69702061f1ac6885759fc853e6eae",
+    "name": "K9 Finance DAO",
+    "symbol": "KNINE",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/35463/standard/Oracle_AI_200x200.png?1708677748"
+    "logoURI": "https://assets.coingecko.com/coins/images/35824/standard/k9_200_X_200.png?1709886958"
+  },
+  {
+    "chainId": 1,
+    "address": "0x1fdb29ad49330b07ae5a87483f598aa6b292039e",
+    "name": "Living the Dream",
+    "symbol": "LTD",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/39991/standard/LTD_200.png?1725061229"
   }
 ]
