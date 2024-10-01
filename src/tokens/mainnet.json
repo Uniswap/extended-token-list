@@ -2343,8 +2343,8 @@
   {
     "chainId": 1,
     "address": "0x6100dd79fCAA88420750DceE3F735d168aBcB771",
-    "name": "NONbeta",
-    "symbol": "SOON",
+    "name": "Ethereans",
+    "symbol": "OS",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/19592/large/soon.jpg?1681377764"
   },
