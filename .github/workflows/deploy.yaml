@@ -13,16 +13,31 @@ jobs:
     environment:
       name: release
     steps:
+      - uses: bullfrogsec/bullfrog@dcde5841b19b7ef693224207a7fdec67fce604db # v0.8.3
+        with:
+          # List of IPs to allow outbound connections to.
+          # By default, only localhost and IPs required for the essential operations of Github Actions are allowed.
+          # allowed-ips: |
+
+          # List of domains to allow outbound connections to.
+          # Wildcards are accepted. For example, if allowing `*.google.com`, this will allow `www.google.com`, `console.cloud.google.com` but not `google.com`.
+          # By default, only domains required for essential operations of Github Actions and uploading job summaries are allowed.
+          # Refer to https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#communication-requirements-for-github-hosted-runners-and-github for additional domains that should be allowed for additional Github Actions features.
+          #allowed-domains:
+
+          # The egress policy to enforce. Valid values are `audit` and `block`.
+          # Default: audit
+          egress-policy: audit
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@50fbc622fc4ef5163becd7fab6573eac35f8462e # v1
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e # v1
         with:
           node-version: "16"
 
       - name: Load NPM secret
-        uses: 1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0
+        uses: 1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0 # 581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0
         with:
           # Export loaded secrets as environment variables
           export-env: true
@@ -43,12 +58,12 @@ jobs:
         run: yarn build
 
       - name: Publish to NPM
-        uses: JS-DevTools/npm-publish@18351461ae08dde235c0ccee0633ec905f0b9a52
+        uses: JS-DevTools/npm-publish@18351461ae08dde235c0ccee0633ec905f0b9a52 # 18351461ae08dde235c0ccee0633ec905f0b9a52
         with:
           token: ${{ env.NPM_TOKEN }}
 
       - name: Load Web 3 deploy secrets
-        uses: 1password/load-secrets-action@d1a4e73495bde3551cf63f6c048588b8f734e21d
+        uses: 1password/load-secrets-action@d1a4e73495bde3551cf63f6c048588b8f734e21d # d1a4e73495bde3551cf63f6c048588b8f734e21d
         with:
           # Export loaded secrets as environment variables
           export-env: true
@@ -58,7 +73,7 @@ jobs:
 
       - name: Pin to IPFS
         id: upload
-        uses: anantaramdas/ipfs-pinata-deploy-action@a551f37c17ec3961df7c3ad52e1cd266dfd3d7e7
+        uses: anantaramdas/ipfs-pinata-deploy-action@a551f37c17ec3961df7c3ad52e1cd266dfd3d7e7 # a551f37c17ec3961df7c3ad52e1cd266dfd3d7e7
         with:
           pin-name: Uniswap Extended Token List
           path: "build/uniswap-extended.tokenlist.json"
@@ -70,7 +85,7 @@ jobs:
           CLOUDFLARE_TOKEN: ${{ env.CLOUDFLARE_TOKEN }}
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
           CLOUDFLARE_GATEWAY_ID: ${{ secrets.CLOUDFLARE_GATEWAY_ID }}
-        uses: Uniswap/cloudflare-update-web3-gateway@b3205288b1c6d0acb63fa3bd8fb686c72a9e3f3e
+        uses: Uniswap/cloudflare-update-web3-gateway@b3205288b1c6d0acb63fa3bd8fb686c72a9e3f3e # b3205288b1c6d0acb63fa3bd8fb686c72a9e3f3e
         with:
           cid: ${{ steps.upload.outputs.hash }}
 
