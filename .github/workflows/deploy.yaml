@@ -36,18 +36,6 @@ jobs:
         with:
           node-version: "16"
 
-      - name: Load NPM secret
-        uses: 1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0 # 581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0
-        with:
-          # Export loaded secrets as environment variables
-          export-env: true
-        env:
-          OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
-          # You may need to change this to your vault name and secret name
-          # Refer to it by calling env.NPM_TOKEN
-          # This token is also limited by IP to ONLY work on the runner
-          NPM_TOKEN: op://npm-deploy/npm-runner-token/secret
-
       - name: Install dependencies
         run: yarn install
 
@@ -58,9 +46,9 @@ jobs:
         run: yarn build
 
       - name: Publish to NPM
-        uses: JS-DevTools/npm-publish@18351461ae08dde235c0ccee0633ec905f0b9a52 # 18351461ae08dde235c0ccee0633ec905f0b9a52
-        with:
-          token: ${{ env.NPM_TOKEN }}
+        run: 
+          npm install -g npm@latest
+          npm publish
 
       - name: Load Web 3 deploy secrets
         uses: 1password/load-secrets-action@d1a4e73495bde3551cf63f6c048588b8f734e21d # d1a4e73495bde3551cf63f6c048588b8f734e21d
