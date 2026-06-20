@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "chainId": 137,
+    "address": "0x7E4A7CC7D9e4e416E7277F8309cC54cF5FD8AF2b",
+    "name": "MyRxWallet Token Reserve",
+    "symbol": "WMRT",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/assets/0x7E4A7CC7D9e4e416E7277F8309cC54cF5FD8AF2b/logo.png"
+  }
+]
