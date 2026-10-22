@@ -1,6 +1,6 @@
 {
   "name": "@uniswap/extended-token-list",
-  "version": "11.0.0",
+  "version": "11.1.0",
   "description": "◦ The Uniswap extended token list",
   "main": "build/uniswap-extended.tokenlist.json",
   "scripts": {
