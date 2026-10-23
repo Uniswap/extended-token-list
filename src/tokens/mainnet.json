@@ -7027,5 +7027,29 @@
     "symbol": "PEPE",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1682922725"
+  },
+  {
+    "chainId": 1,
+    "address": "0x32b86b99441480a7E5BD3A26c124ec2373e3F015",
+    "name": "Bad Idea AI",
+    "symbol": "BAD",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/30871/standard/Bad_idea.jpeg?1696529718"
+  },
+  {
+    "chainId": 1,
+    "address": "0x91fbb2503ac69702061f1ac6885759fc853e6eae",
+    "name": "K9 Finance DAO",
+    "symbol": "KNINE",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/35824/standard/k9_200_X_200.png?1709886958"
+  },
+  {
+    "chainId": 1,
+    "address": "0x1fdb29ad49330b07ae5a87483f598aa6b292039e",
+    "name": "Living the Dream",
+    "symbol": "LTD",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/39991/standard/LTD_200.png?1725061229"
   }
 ]
