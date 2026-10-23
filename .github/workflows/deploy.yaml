@@ -5,11 +5,17 @@ on:
       - main
   workflow_dispatch: # manual trigger
 
+permissions:
+  contents: read
+
 jobs:
   deploy:
     name: Deploy
     runs-on:
       group: npm-deploy
+    permissions:
+      id-token: write
+      contents: read
     environment:
       name: release
     steps:
