@@ -9,6 +9,14 @@
   },
   {
     "chainId": 1,
+    "address": "0x3d5F61a4BB385B6D1eB34F47aA790A996f1Eba65",
+    "name": "MyStandard",
+    "symbol": "MYST",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/52890/standard/FUndable_myst_logo.png?1734604348"
+  },
+  {
+    "chainId": 1,
     "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
     "name": "agEUR",
     "symbol": "AGEUR",
