@@ -7027,5 +7027,13 @@
     "symbol": "PEPE",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1682922725"
+  },
+  {
+    "chainId": 1,
+    "address": "0xed11c9BCF69fdD2EEFd9Fe751BfcA32f171D53Ae",
+    "name": "Koinos",
+    "symbol": "KOIN",
+    "decimals": 8,
+    "logoURI": "https://assets.coingecko.com/coins/images/13116/large/koinos-mark-circle-250px.png?1696512903"
   }
 ]
